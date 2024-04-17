@@ -4,21 +4,33 @@
 
 SC Wallet is an implementation of an over-collateralized algorithmic stablecoin using Cardano's ADA as collateral
 
-## Prerequisite
+# Installation Instructions
 
-Set Up Blockfrost Project:
+## Setting up Blockfrost
 
-Register a new project on the Blockfrost.io website and obtain your Project ID.
-Navigate to the directory SC-Wallet/front-back/off-chain/frontend/src/pages/_app.tsx and insert the Project ID into the Blockfrost constructor.
-Configure Nami Wallet:
+1. **Create a Blockfrost Project:**
+   - Navigate to [Blockfrost.io](https://blockfrost.io/) and sign up or log in.
+   - Create a new project and copy your Project ID.
 
-Download and install the Nami Wallet. Switch to Preview mode (ensure you have some ADA available for transactions).
+2. **Configure Project ID:**
+   - Go to the file located at `SC-Wallet/front-back/off-chain/frontend/src/pages/_app.tsx`.
+   - Paste your Project ID into the Blockfrost constructor within this file.
 
-## Installation
+## Configuring Nami Wallet
 
-Start the Frontend Application:
+1. **Install Nami Wallet:**
+   - Download and install Nami Wallet from its official website or browser extension store.
+   - Activate Preview mode in the wallet settings. Ensure you have some ADA in your wallet to handle transactions.
 
-Open a terminal, change to the directory SC-Wallet/front-back/off-chain/frontend/, and execute the command:
-bash
-Copy code
-npm run dev
+## Running the Frontend
+
+1. **Start the Development Server:**
+   - Open your terminal and navigate to the folder `SC-Wallet/front-back/off-chain/frontend/`.
+   - Run the following command to start the development server:
+     ```bash
+     npm run dev
+     ```
+   - This command will launch the frontend application locally for development and testing.
+
+Follow these steps to set up and run the front-end portion of the SC-Wallet application on your local machine.
+
