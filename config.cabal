@@ -2,8 +2,8 @@ cabal-version: 3.4
 name:                   config
 version:                0.1.0.0
 description:            End to end examples of creating and executing Plutus scripts.
-author:                 IOG's education team
-maintainer:             education@iohk.io
+author:                 devula
+maintainer:             devula
 license:                Apache-2.0
 build-type:             Simple
 
